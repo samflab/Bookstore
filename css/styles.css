@@ -214,6 +214,10 @@ margin-left: 10%;}
   background-color: #f1f1f1;
 }
 
+.card:hover{
+  transform: translateY(-10px);
+}
+
 /********************************/
 /*    Text Inside Card Layout   */
 /********************************/
