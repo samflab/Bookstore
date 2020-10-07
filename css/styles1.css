@@ -1,0 +1,85 @@
+#section
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#sectionone
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+}
+#form
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+body
+{
+    font-family: 'Lato'
+}
+
+h3
+{
+    font-weight: 700;
+}
+
+h4
+{
+    font-weight:bold;
+}
+
+b
+{
+    color: maroon;
+}
+
+p
+{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#buynow
+{
+    background-color: #f0c351;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+}
+
+#back
+{
+    background-color: darkgrey;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+}
+
+#place_order
+{
+    background-color: #f0c351;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+    border: none;
+}
