@@ -241,3 +241,9 @@ a:hover
     text-decoration: none;
     color: black;
 }
+
+.socialmedia-icon {
+  color: white; 
+  padding: 3px; 
+  font-size: 22px;
+}
