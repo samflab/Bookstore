@@ -1,120 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>
-      Notesflix</title>
- <link rel = "icon" href ="img/logo.jpg" type = "image/x-icon"> 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <head>
+    <title>Notesflix</title>
+    <link rel="icon" href="img/logo.jpg" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/styles1.css">
-</head>
-    
-    <body>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles1.css" />
+  </head>
+
+  <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="https://www.notesflix.in"><img src="img/logo1.svg" height="40" width="100"></a>
-            <button type="button" class="navbar-toggle ml-auto" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+          <a class="navbar-brand" href="https://www.notesflix.in"
+            ><img src="img/logo1.svg" height="40" width="100"
+          /></a>
+          <button
+            type="button"
+            class="navbar-toggle ml-auto"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
           </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav navbar-nav navbar-right">
-
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
           </ul>
         </div>
       </div>
-</nav>
-        
+    </nav>
+
     <div class="container">
-        <div class="row">
-    <div class="col-lg-4" id="section">
-                <img src="https://images.unsplash.com/photo-1542639130-b6a81c306c3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="img-responsive">
-    </div>
-    <div id="sectionone">
-        <h3>Book Name</h3>
-        <h4>Author Name</h4>
-        <p>Market Price: <strike> Rs.150</strike></p>
-        <p>Our price: <b>Rs. 50</b></p>
-        <p>Edition</p>
-        <a href="#form"><button type="button" id="buynow">Buy Now</button> </a>&nbsp; &nbsp; <a href="index.html"><button type="button" id="back">Back to Home</button></a>
-    </div>
-    </div>
-  </div>
-    
-    <div class="container">
-    <div class="row">
-      <div id="form">
-          <form>
-              <h3>Shipping Details</h3>
-              <br>
-              <div class="form-group">
-                    <label for="name">Full Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="No worries, your data is safe with us" required>
-                    </div>
-                    
-                     <div class="form-group">
-                         <label for="password">Phone</label>
-                            <input type="number" class="form-control" id="phone" name="phone" placeholder="Preferrably your WhatsApp number, in order to receive order related details" required>
-                    </div>
-              <div class="form-group">
-                         <label for="password">Alternate Phone</label>
-                            <input type="number" class="form-control" id="aphone" name="aphone" placeholder="Just in case we can't reach you on WhatsApp">
-                    </div>
-              <div class="form-group">
-                         <label for="password">Email Id</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="To reach you in a formal way"required>
-                    </div>
-              <div class="form-group">
-                         <label for="password">Address</label>
-                            <input type="text" class="form-control" id="address" name="address" placeholder="To receive your order by weekend" required><br>
-                            <input type="text" class="form-control" id="address1" name="address1" placeholder="Incase your address doesn't fit in one line"><br>
-                            <input type="text" class="form-control" id="address2" name="address2" placeholder="Incase your address doesn't fit in two lines">
-                    </div>
-              
-                    <button type="button" id="place_order">Place Order*</button>
-            </form>
-          <br>
-          <em>*Only Payment on Delivery</em>
-        
-      </div>
-      
-    </div>
-  </div>
-       <br> 
-    <div class="footer" style="background-color: black;">
-         <div class="container">
-                <div class="row" id="column">
-                    <a id="column">Home</a> <a id="column">Contact Us</a>
-                </div>
-              <div id="media_spacing">
-                <ul id="media_icons">
-                    <a id="links" href="https://www.facebook.com/notesflix"><li id="media_list"><i class="fab fa-facebook"></i></li></a>
-                    <a id="links" href="https://www.instagram.com/notesflix"><li id="media_list"><i class="fab fa-instagram"></i></li></a>
-                    <a id="links" href="https://www.linkedin.com/company/notesflix/"><li id="media_list"><i class="fab fa-linkedin-in"></i></li></a>
-                    
-                </ul>
-              </div>
-             
-             <div class="row" id="column1">
-                    © Copyright 2020-Notesflix
-                </div>
+      <div class="row">
+        <div class="col-lg-4" id="section">
+          <img
+            src="https://images.unsplash.com/photo-1542639130-b6a81c306c3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+            class="img-responsive"
+          />
         </div>
+        <div id="sectionone">
+          <h3>Book Name</h3>
+          <h4>Author Name</h4>
+          <p>Market Price: <strike> Rs.150</strike></p>
+          <p>Our price: <b>Rs. 50</b></p>
+          <p>Edition</p>
+          <a href="#form"><button type="button" id="buynow">Buy Now</button> </a
+          >&nbsp; &nbsp;
+          <a href="index.html"
+            ><button type="button" id="back">Back to Home</button></a
+          >
+        </div>
+      </div>
     </div>
-</body>
+
+    <div class="container">
+      <div class="row">
+        <div id="form">
+          <form>
+            <h3>Shipping Details</h3>
+            <br />
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="No worries, your data is safe with us"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="password">Phone</label>
+              <input
+                type="number"
+                class="form-control"
+                id="phone"
+                name="phone"
+                placeholder="Preferrably your WhatsApp number, in order to receive order related details"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Alternate Phone</label>
+              <input
+                type="number"
+                class="form-control"
+                id="aphone"
+                name="aphone"
+                placeholder="Just in case we can't reach you on WhatsApp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Email Id</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="To reach you in a formal way"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="password">Address</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                name="address"
+                placeholder="To receive your order by weekend"
+                required
+              /><br />
+              <input
+                type="text"
+                class="form-control"
+                id="address1"
+                name="address1"
+                placeholder="Incase your address doesn't fit in one line"
+              /><br />
+              <input
+                type="text"
+                class="form-control"
+                id="address2"
+                name="address2"
+                placeholder="Incase your address doesn't fit in two lines"
+              />
+            </div>
+          </form>
+          <button id="place_order" onclick="showPopUpMessage()">Place Order*</button>
+          <br />
+          <em>*Only Payment on Delivery</em>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="footer" style="background-color: black">
+      <div class="container">
+        <div class="row" id="column">
+          <a id="column">Home</a> <a id="column">Contact Us</a>
+        </div>
+        <div id="media_spacing">
+          <ul id="media_icons">
+            <a id="links" href="https://www.facebook.com/notesflix"
+              ><li id="media_list"><i class="fab fa-facebook"></i></li
+            ></a>
+            <a id="links" href="https://www.instagram.com/notesflix"
+              ><li id="media_list"><i class="fab fa-instagram"></i></li
+            ></a>
+            <a id="links" href="https://www.linkedin.com/company/notesflix/"
+              ><li id="media_list"><i class="fab fa-linkedin-in"></i></li
+            ></a>
+          </ul>
+        </div>
+
+        <div class="row" id="column1">© Copyright 2020-Notesflix</div>
+      </div>
+    </div>
+    
+    <script src="/js/pop-up.js"></script>
+  </body>
 </html>
