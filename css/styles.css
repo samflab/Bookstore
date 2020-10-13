@@ -240,6 +240,7 @@ form.example::after {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  transition: transform 0.3s;
 }
 
 .card:hover {
