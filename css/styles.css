@@ -144,7 +144,45 @@
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }    
 }
+/********************************/
+/*          Search Bar          */
+/********************************/
+.example
+{
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+}
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+    
+}
 
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: grey;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /********************************/
 /*          Books Layout       */
 /********************************/
